@@ -1,7 +1,7 @@
 from functools import reduce
 
 
-# lowest common multiple-LCM 最小公倍
+# lowest common multiple-LCM 最小公倍数
 def lcm_seq(seq):  # 求多个数的最小公倍
     def gcd(a, b):  # 求两个数的最大公约数
         r = a % b
